@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE1CDFD1DDAE94F00341650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1CDFC1DDAE94F00341650 /* main.m */; };
+		FCE1CE001DDAE94F00341650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1CDFF1DDAE94F00341650 /* AppDelegate.m */; };
+		FCE1CE031DDAE94F00341650 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1CE021DDAE94F00341650 /* ViewController.m */; };
+		FCE1CE061DDAE94F00341650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE1CE041DDAE94F00341650 /* Main.storyboard */; };
+		FCE1CE081DDAE94F00341650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1CE071DDAE94F00341650 /* Assets.xcassets */; };
+		FCE1CE0B1DDAE94F00341650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE1CE091DDAE94F00341650 /* LaunchScreen.storyboard */; };
+		FCE1CE161DDAE94F00341650 /* SZX_InkeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1CE151DDAE94F00341650 /* SZX_InkeTests.m */; };
+		FCE1CE211DDAE94F00341650 /* SZX_InkeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1CE201DDAE94F00341650 /* SZX_InkeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE1CE121DDAE94F00341650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1CDF01DDAE94F00341650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE1CDF71DDAE94F00341650;
+			remoteInfo = "SZX-Inke";
+		};
+		FCE1CE1D1DDAE94F00341650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1CDF01DDAE94F00341650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE1CDF71DDAE94F00341650;
+			remoteInfo = "SZX-Inke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCE1CDF81DDAE94F00341650 /* SZX-Inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SZX-Inke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1CDFC1DDAE94F00341650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCE1CDFE1DDAE94F00341650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCE1CDFF1DDAE94F00341650 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCE1CE011DDAE94F00341650 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCE1CE021DDAE94F00341650 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCE1CE051DDAE94F00341650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCE1CE071DDAE94F00341650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE1CE0A1DDAE94F00341650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCE1CE0C1DDAE94F00341650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE1CE111DDAE94F00341650 /* SZX-InkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SZX-InkeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1CE151DDAE94F00341650 /* SZX_InkeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZX_InkeTests.m; sourceTree = "<group>"; };
+		FCE1CE171DDAE94F00341650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE1CE1C1DDAE94F00341650 /* SZX-InkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SZX-InkeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1CE201DDAE94F00341650 /* SZX_InkeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZX_InkeUITests.m; sourceTree = "<group>"; };
+		FCE1CE221DDAE94F00341650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE1CDF51DDAE94F00341650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1CE0E1DDAE94F00341650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1CE191DDAE94F00341650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE1CDEF1DDAE94F00341650 = {
+			isa = PBXGroup;
+			children = (
+				FCE1CDFA1DDAE94F00341650 /* SZX-Inke */,
+				FCE1CE141DDAE94F00341650 /* SZX-InkeTests */,
+				FCE1CE1F1DDAE94F00341650 /* SZX-InkeUITests */,
+				FCE1CDF91DDAE94F00341650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE1CDF91DDAE94F00341650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1CDF81DDAE94F00341650 /* SZX-Inke.app */,
+				FCE1CE111DDAE94F00341650 /* SZX-InkeTests.xctest */,
+				FCE1CE1C1DDAE94F00341650 /* SZX-InkeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE1CDFA1DDAE94F00341650 /* SZX-Inke */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1CDFE1DDAE94F00341650 /* AppDelegate.h */,
+				FCE1CDFF1DDAE94F00341650 /* AppDelegate.m */,
+				FCE1CE011DDAE94F00341650 /* ViewController.h */,
+				FCE1CE021DDAE94F00341650 /* ViewController.m */,
+				FCE1CE041DDAE94F00341650 /* Main.storyboard */,
+				FCE1CE071DDAE94F00341650 /* Assets.xcassets */,
+				FCE1CE091DDAE94F00341650 /* LaunchScreen.storyboard */,
+				FCE1CE0C1DDAE94F00341650 /* Info.plist */,
+				FCE1CDFB1DDAE94F00341650 /* Supporting Files */,
+			);
+			path = "SZX-Inke";
+			sourceTree = "<group>";
+		};
+		FCE1CDFB1DDAE94F00341650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1CDFC1DDAE94F00341650 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCE1CE141DDAE94F00341650 /* SZX-InkeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1CE151DDAE94F00341650 /* SZX_InkeTests.m */,
+				FCE1CE171DDAE94F00341650 /* Info.plist */,
+			);
+			path = "SZX-InkeTests";
+			sourceTree = "<group>";
+		};
+		FCE1CE1F1DDAE94F00341650 /* SZX-InkeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1CE201DDAE94F00341650 /* SZX_InkeUITests.m */,
+				FCE1CE221DDAE94F00341650 /* Info.plist */,
+			);
+			path = "SZX-InkeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE1CDF71DDAE94F00341650 /* SZX-Inke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1CE251DDAE94F00341650 /* Build configuration list for PBXNativeTarget "SZX-Inke" */;
+			buildPhases = (
+				FCE1CDF41DDAE94F00341650 /* Sources */,
+				FCE1CDF51DDAE94F00341650 /* Frameworks */,
+				FCE1CDF61DDAE94F00341650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SZX-Inke";
+			productName = "SZX-Inke";
+			productReference = FCE1CDF81DDAE94F00341650 /* SZX-Inke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCE1CE101DDAE94F00341650 /* SZX-InkeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1CE281DDAE94F00341650 /* Build configuration list for PBXNativeTarget "SZX-InkeTests" */;
+			buildPhases = (
+				FCE1CE0D1DDAE94F00341650 /* Sources */,
+				FCE1CE0E1DDAE94F00341650 /* Frameworks */,
+				FCE1CE0F1DDAE94F00341650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE1CE131DDAE94F00341650 /* PBXTargetDependency */,
+			);
+			name = "SZX-InkeTests";
+			productName = "SZX-InkeTests";
+			productReference = FCE1CE111DDAE94F00341650 /* SZX-InkeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCE1CE1B1DDAE94F00341650 /* SZX-InkeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1CE2B1DDAE94F00341650 /* Build configuration list for PBXNativeTarget "SZX-InkeUITests" */;
+			buildPhases = (
+				FCE1CE181DDAE94F00341650 /* Sources */,
+				FCE1CE191DDAE94F00341650 /* Frameworks */,
+				FCE1CE1A1DDAE94F00341650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE1CE1E1DDAE94F00341650 /* PBXTargetDependency */,
+			);
+			name = "SZX-InkeUITests";
+			productName = "SZX-InkeUITests";
+			productReference = FCE1CE1C1DDAE94F00341650 /* SZX-InkeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE1CDF01DDAE94F00341650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "苏志学";
+				TargetAttributes = {
+					FCE1CDF71DDAE94F00341650 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7Y23H2KX2R;
+						ProvisioningStyle = Automatic;
+					};
+					FCE1CE101DDAE94F00341650 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7Y23H2KX2R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCE1CDF71DDAE94F00341650;
+					};
+					FCE1CE1B1DDAE94F00341650 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7Y23H2KX2R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCE1CDF71DDAE94F00341650;
+					};
+				};
+			};
+			buildConfigurationList = FCE1CDF31DDAE94F00341650 /* Build configuration list for PBXProject "SZX-Inke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE1CDEF1DDAE94F00341650;
+			productRefGroup = FCE1CDF91DDAE94F00341650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE1CDF71DDAE94F00341650 /* SZX-Inke */,
+				FCE1CE101DDAE94F00341650 /* SZX-InkeTests */,
+				FCE1CE1B1DDAE94F00341650 /* SZX-InkeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE1CDF61DDAE94F00341650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1CE0B1DDAE94F00341650 /* LaunchScreen.storyboard in Resources */,
+				FCE1CE081DDAE94F00341650 /* Assets.xcassets in Resources */,
+				FCE1CE061DDAE94F00341650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1CE0F1DDAE94F00341650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1CE1A1DDAE94F00341650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE1CDF41DDAE94F00341650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1CE031DDAE94F00341650 /* ViewController.m in Sources */,
+				FCE1CE001DDAE94F00341650 /* AppDelegate.m in Sources */,
+				FCE1CDFD1DDAE94F00341650 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1CE0D1DDAE94F00341650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1CE161DDAE94F00341650 /* SZX_InkeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1CE181DDAE94F00341650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1CE211DDAE94F00341650 /* SZX_InkeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE1CE131DDAE94F00341650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE1CDF71DDAE94F00341650 /* SZX-Inke */;
+			targetProxy = FCE1CE121DDAE94F00341650 /* PBXContainerItemProxy */;
+		};
+		FCE1CE1E1DDAE94F00341650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE1CDF71DDAE94F00341650 /* SZX-Inke */;
+			targetProxy = FCE1CE1D1DDAE94F00341650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCE1CE041DDAE94F00341650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE1CE051DDAE94F00341650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCE1CE091DDAE94F00341650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE1CE0A1DDAE94F00341650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE1CE231DDAE94F00341650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE1CE241DDAE94F00341650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE1CE261DDAE94F00341650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y23H2KX2R;
+				INFOPLIST_FILE = "SZX-Inke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suzhixue.511.SZX-Inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCE1CE271DDAE94F00341650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Y23H2KX2R;
+				INFOPLIST_FILE = "SZX-Inke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suzhixue.511.SZX-Inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCE1CE291DDAE94F00341650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Y23H2KX2R;
+				INFOPLIST_FILE = "SZX-InkeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suzhixue.511.SZX-InkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZX-Inke.app/SZX-Inke";
+			};
+			name = Debug;
+		};
+		FCE1CE2A1DDAE94F00341650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Y23H2KX2R;
+				INFOPLIST_FILE = "SZX-InkeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suzhixue.511.SZX-InkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZX-Inke.app/SZX-Inke";
+			};
+			name = Release;
+		};
+		FCE1CE2C1DDAE94F00341650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Y23H2KX2R;
+				INFOPLIST_FILE = "SZX-InkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suzhixue.511.SZX-InkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SZX-Inke";
+			};
+			name = Debug;
+		};
+		FCE1CE2D1DDAE94F00341650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7Y23H2KX2R;
+				INFOPLIST_FILE = "SZX-InkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suzhixue.511.SZX-InkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SZX-Inke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE1CDF31DDAE94F00341650 /* Build configuration list for PBXProject "SZX-Inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1CE231DDAE94F00341650 /* Debug */,
+				FCE1CE241DDAE94F00341650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1CE251DDAE94F00341650 /* Build configuration list for PBXNativeTarget "SZX-Inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1CE261DDAE94F00341650 /* Debug */,
+				FCE1CE271DDAE94F00341650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCE1CE281DDAE94F00341650 /* Build configuration list for PBXNativeTarget "SZX-InkeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1CE291DDAE94F00341650 /* Debug */,
+				FCE1CE2A1DDAE94F00341650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCE1CE2B1DDAE94F00341650 /* Build configuration list for PBXNativeTarget "SZX-InkeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1CE2C1DDAE94F00341650 /* Debug */,
+				FCE1CE2D1DDAE94F00341650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE1CDF01DDAE94F00341650 /* Project object */;
+}
